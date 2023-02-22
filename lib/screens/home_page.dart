@@ -7,7 +7,7 @@ class Homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("HandCraft",style: TextStyle(color: Colors.greenAccent,fontWeight: FontWeight.w800),),
+        title: Text("HandCraft.io",style: TextStyle(color: Colors.white,fontWeight: FontWeight.w700),),
       ),
       body: Center(
         child: Container(
@@ -15,6 +15,7 @@ class Homepage extends StatelessWidget {
         ),
       ),
       drawer: Drawer(),
+
     );
   }
 }
